@@ -1,0 +1,28 @@
+﻿@model IEnumerable<SupermarketListUI.Models.SupermarketList>
+@{
+    ViewData["Title"] = "List Items";
+}
+
+<h1>Showing All List Items</h1>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

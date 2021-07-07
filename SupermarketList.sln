@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketListUI", "SupermarketListUI\SupermarketListUI.csproj", "{5AB8071F-B3EB-482F-820F-5181F781386B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketListUIUnitTests", "SupermarketListUIUnitTests\SupermarketListUIUnitTests.csproj", "{F290ECBA-465C-410B-BFC2-53365CF20516}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AB8071F-B3EB-482F-820F-5181F781386B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB8071F-B3EB-482F-820F-5181F781386B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB8071F-B3EB-482F-820F-5181F781386B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB8071F-B3EB-482F-820F-5181F781386B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F290ECBA-465C-410B-BFC2-53365CF20516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F290ECBA-465C-410B-BFC2-53365CF20516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F290ECBA-465C-410B-BFC2-53365CF20516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F290ECBA-465C-410B-BFC2-53365CF20516}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FD3426A-FF08-4644-A390-812D37E101C2}
+	EndGlobalSection
+EndGlobal

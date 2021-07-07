@@ -1,0 +1,37 @@
+﻿@model SupermarketListUI.Models.SupermarketList
+@{
+    ViewData["Title"] = "New Item";
+}
+
+
+<h1>Add new Item</h1>
+
+<h4>SuperMarket List</h4>
+<hr />
+
+@if (ViewData["error"] != null)
+{
+<div class="alert alert-danger" role="alert">
+    @ViewData["error"].ToString();
+</div>
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
